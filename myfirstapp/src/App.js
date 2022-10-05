@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import {Navbar,Form, Button, Container}  from 'react-bootstrap'
 
 
@@ -10,11 +9,11 @@ function App() {
     <div className="App">
       <Navbar bg="light">
         <Container>
-          <Navbar.Brand>
-            Form checkpoint
+          <Navbar.Brand id='text'>
+           Form Checkpoint
           </Navbar.Brand>
           <Navbar.Brand>
-            <Form.Check type='switch'></Form.Check>
+            <Form.Check type='switch' id='switchbtn'></Form.Check> 
           </Navbar.Brand>
         </Container>
       </Navbar>
